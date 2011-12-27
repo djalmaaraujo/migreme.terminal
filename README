@@ -1,3 +1,14 @@
 Works with Mac OS X
 Tested on Lion zsh terminal
 Using pbcopy to send information to clipboard
+
+To use from strach:
+ruby migre.me.rb
+Type url
+That's all.
+
+ZSH Alias!
+
+# Aliases
+function mgrm() { ruby ~/dev/migreme/migre.me.rb }
+compdef mgrm
